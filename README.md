@@ -20,13 +20,14 @@ Generating 3D models from 2D face images is a challenging task used in:
 
 ## 📁 Project Structure
 ```bash
+├── main/
+│   └── main.py
 ├── models/
-│   └── face_param_regressor.py
+│   └── face_regressor/
 ├── checkpoints/
 │   └── epoch_20.pth
 ├── utils/
-│   └── preprocessing.py
-├── main.py
 ├── test_image.jpg
 ├── output_3d.obj
 └── README.md
+
